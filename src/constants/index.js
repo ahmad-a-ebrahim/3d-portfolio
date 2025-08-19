@@ -174,7 +174,7 @@ export const workExperiences = [
     id: 1,
     name: "York British Academy",
     pos: "Frontend Developer",
-    duration: "2/2024 - 4/2024",
+    duration: "2/2024 - 7/2024",
     title:
       "As a Frontend Developer at York British Academy, I played a key role in the development and enhancement of a major project for the company. Working remotely, I gained valuable experience and significantly improved my key skills in React, Next, and Redux.",
     icon: "/assets/york.jpg",
@@ -187,7 +187,7 @@ export const workExperiences = [
     duration: "2/2025 - Present",
     title:
       "As a Frontend Developer at Davinda, collaborating with backend, design, and test teams to deliver top-notch web solutions. Skilled in React, Next, and Redux, optimizing UI performance, managing state, and leveraging modern styling frameworks for seamless user experiences.",
-    icon: "/assets/d.svg",
+    icon: "/assets/davinda.jpg",
     animation: "clapping",
   },
   // {
