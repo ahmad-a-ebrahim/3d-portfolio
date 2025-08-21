@@ -42,20 +42,47 @@ const Projects = () => {
             <div className="flex items-center gap-3">
               {currentProject.tags.map((tag, index) => (
                 <div key={index} className="tech-logo">
-                  <img src={tag.path} alt={tag.name} />
+                  <img
+                    src={tag.path}
+                    alt={tag.name}
+                    className="rounded-[2px]"
+                  />
                 </div>
               ))}
             </div>
 
-            <a
-              href={currentProject.href}
-              className="flex items-center gap-2 cursor-pointer text-white-600"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>Check live site</p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="h-3 w-3" />
-            </a>
+            <div className="space-y-0.5">
+              {currentProject?.href && (
+                <a
+                  href={currentProject.href}
+                  className="flex items-center gap-2 cursor-pointer text-white-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>Check live site</p>
+                  <img
+                    src="/assets/arrow-up.png"
+                    alt="arrow"
+                    className="h-3 w-3"
+                  />
+                </a>
+              )}
+              {currentProject?.repo && (
+                <a
+                  href={currentProject.repo}
+                  className="flex items-center gap-2 cursor-pointer text-white-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>Check source code</p>
+                  <img
+                    src="/assets/arrow-up.png"
+                    alt="arrow"
+                    className="h-3 w-3"
+                  />
+                </a>
+              )}
+            </div>
           </div>
 
           <div className="flex justify-between items-center mt-7">

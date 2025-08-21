@@ -44,38 +44,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Cryptocurrencies App",
-    desc: "Fully responsive and interactive crypto currencies website using react.js, ant design, redux toolkit, chart.js and coinranking, bing news APIs.",
+    title: "EVEXL - NFC Platform",
+    desc: "NFC-powered platform to design, build, and share digital business cards and social media cards, built with React, Redux, ShadCN, and Tailwind CSS. The platform supports role-based access, a customizable dashboard, and seamless integration with Google & Apple Wallets.",
     subdesc:
-      "Amazing statistics about crypto world with links and graphs so you can follow up with up to date information and filtering functionality to quickly find any currency.",
-    href: "https://ahmad-a-ebrahim.github.io/cryptoapp",
-    video: "/videos/project/cryptoapp.mp4",
-    spotlight: "/assets/spotlight-purple.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "Ant Design",
-        path: "assets/ant-design.svg",
-      },
-      {
-        id: 3,
-        name: "Redux.js",
-        path: "/assets/redux.svg",
-      },
-    ],
-  },
-  {
-    title: "Luxe Timepices - Online Store",
-    desc: "Watches store using react, redux, mui and php laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
-    subdesc:
-      "With modern and rebust design with page for browsing products and adding them to the favorites, Also Cart managment functionality with icrease/decrease quantity and remove. And a dashboard to manage products and users.",
-    href: "https://github.com/ahmad-a-ebrahim/luxe-timepieces",
-    video: "/videos/project/luxe-timepieces.mp4",
+      "Features include OAuth authentication, analytics, subscription plans via Tap Payments, Firebase push notifications, and full dashboard customization, providing a modern and scalable solution for managing digital identities.",
+    href: "https://evexl.davinda.dev",
+    video: "/videos/project/evexl.mp4",
     spotlight: "/assets/spotlight-orange.png",
     tags: [
       {
@@ -85,22 +59,28 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Redux.js",
+        name: "Redux",
         path: "/assets/redux.svg",
       },
       {
         id: 3,
-        name: "MUI",
-        path: "/assets/mui.svg",
+        name: "Shadcn UI",
+        path: "/assets/shadcn.png",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/tailwindcss.png",
       },
     ],
   },
   {
-    title: "AutoForma - AI Form Builder",
+    title: "Auto Forma - AI Form Builder",
     desc: "A full-stack form builder platform built with Next.js, TypeScript, Drizzle ORM, and Supabase, featuring authentication (email & Google), AI-powered form generation, manual form creation, and an intuitive form editor. Users can manage responses with advanced filtering, gain insights through analytics dashboards, and access premium features via Stripe subscriptions.",
     subdesc:
       "AutoForma combines AI, modern UI, and scalable architecture to deliver a seamless experience for building, managing, and analyzing forms.",
     href: "https://auto-forma.vercel.app",
+    repo: "https://github.com/ahmad-a-ebrahim/auto-forma",
     video: "/videos/project/auto-forma.mp4",
     spotlight: "/assets/spotlight-blue.png",
     tags: [
@@ -123,6 +103,59 @@ export const myProjects = [
         id: 4,
         name: "Supabase",
         path: "/assets/supabase.svg",
+      },
+    ],
+  },
+  {
+    title: "Luxe Timepices - Online Store",
+    desc: "Watches store using react, redux, mui and php laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
+    subdesc:
+      "With modern and rebust design with page for browsing products and adding them to the favorites, Also Cart managment functionality with icrease/decrease quantity and remove. And a dashboard to manage products and users.",
+    repo: "https://github.com/ahmad-a-ebrahim/luxe-timepieces",
+    video: "/videos/project/luxe-timepieces.mp4",
+    spotlight: "/assets/spotlight-orange.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "Redux.js",
+        path: "/assets/redux.svg",
+      },
+      {
+        id: 3,
+        name: "MUI",
+        path: "/assets/mui.svg",
+      },
+    ],
+  },
+  {
+    title: "Cryptocurrencies App",
+    desc: "Fully responsive and interactive crypto currencies website using react.js, ant design, redux toolkit, chart.js and coinranking, bing news APIs.",
+    subdesc:
+      "Amazing statistics about crypto world with links and graphs so you can follow up with up to date information and filtering functionality to quickly find any currency.",
+    href: "https://ahmad-a-ebrahim.github.io/cryptoapp",
+    repo: "https://github.com/ahmad-a-ebrahim/cryptoapp",
+    video: "/videos/project/cryptoapp.mp4",
+    spotlight: "/assets/spotlight-purple.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "Ant Design",
+        path: "assets/ant-design.svg",
+      },
+      {
+        id: 3,
+        name: "Redux.js",
+        path: "/assets/redux.svg",
       },
     ],
   },
