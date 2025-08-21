@@ -43,30 +43,14 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-  // {
-  //   title: "Little Lemon - Restaurant Reservation",
-  //   desc: "Responsive website for little lemon restaurant with table reservation feature that shows the available times based on the date using react.js.",
-  //   subdesc:
-  //     "This was the final project for the Meta frontend specialization course, And my first react application.",
-  //   href: "https://ahmad-ebrahim-1.github.io/little-lemon/",
-  //   texture: "/textures/project/project1.mp4",
-  //   spotlight: "/assets/spotlight1.png",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "React.js",
-  //       path: "/assets/react.svg",
-  //     },
-  //   ],
-  // },
   {
     title: "Cryptocurrencies App",
     desc: "Fully responsive and interactive crypto currencies website using react.js, ant design, redux toolkit, chart.js and coinranking, bing news APIs.",
     subdesc:
       "Amazing statistics about crypto world with links and graphs so you can follow up with up to date information and filtering functionality to quickly find any currency.",
-    href: "https://ahmad-ebrahim-1.github.io/cryptoapp/",
-    texture: "/textures/project/project2.mp4",
-    spotlight: "/assets/spotlight2.png",
+    href: "https://ahmad-a-ebrahim.github.io/cryptoapp",
+    video: "/videos/project/cryptoapp.mp4",
+    spotlight: "/assets/spotlight-purple.png",
     tags: [
       {
         id: 1,
@@ -86,34 +70,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "Googl - Search Engine",
-    desc: "Googl is a responsive website that uses Google Web Search API to return search results. Developed using react.js, tailwindcss and contextAPI.",
-    subdesc:
-      "User-friendly design with dark / light theme feature and debounce search text to optimize the search functionality.",
-    href: "https://ahmad-ebrahim-1.github.io/googl/",
-    texture: "/textures/project/project3.mp4",
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-    ],
-  },
-  {
     title: "Luxe Timepices - Online Store",
     desc: "Watches store using react, redux, mui and php laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
     subdesc:
       "With modern and rebust design with page for browsing products and adding them to the favorites, Also Cart managment functionality with icrease/decrease quantity and remove. And a dashboard to manage products and users.",
-    href: "https://github.com/ahmad-ebrahim-1/Luxe-Timepieces",
-    texture: "/textures/project/project4.mp4",
-    spotlight: "/assets/spotlight4.png",
+    href: "https://github.com/ahmad-a-ebrahim/luxe-timepieces",
+    video: "/videos/project/luxe-timepieces.mp4",
+    spotlight: "/assets/spotlight-orange.png",
     tags: [
       {
         id: 1,
@@ -129,6 +92,37 @@ export const myProjects = [
         id: 3,
         name: "MUI",
         path: "/assets/mui.svg",
+      },
+    ],
+  },
+  {
+    title: "AutoForma - AI Form Builder",
+    desc: "A full-stack form builder platform built with Next.js, TypeScript, Drizzle ORM, and Supabase, featuring authentication (email & Google), AI-powered form generation, manual form creation, and an intuitive form editor. Users can manage responses with advanced filtering, gain insights through analytics dashboards, and access premium features via Stripe subscriptions.",
+    subdesc:
+      "AutoForma combines AI, modern UI, and scalable architecture to deliver a seamless experience for building, managing, and analyzing forms.",
+    href: "https://auto-forma.vercel.app",
+    video: "/videos/project/auto-forma.mp4",
+    spotlight: "/assets/spotlight-blue.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "Typescript",
+        path: "/assets/typescript.svg",
+      },
+      {
+        id: 3,
+        name: "Shadcn UI",
+        path: "/assets/shadcn.png",
+      },
+      {
+        id: 4,
+        name: "Supabase",
+        path: "/assets/supabase.svg",
       },
     ],
   },
@@ -176,7 +170,7 @@ export const workExperiences = [
     pos: "Frontend Developer",
     duration: "2/2024 - 7/2024",
     title:
-      "As a Frontend Developer at York British Academy, I played a key role in the development and enhancement of a major project for the company. Working remotely, I gained valuable experience and significantly improved my key skills in React, Next, and Redux.",
+      "At York British Academy, I played a key role in the development and enhancement of a major project for the company. Working remotely, I gained valuable experience and significantly improved my key skills in React, Next, and Redux.",
     icon: "/assets/york.jpg",
     animation: "victory",
   },
@@ -186,7 +180,7 @@ export const workExperiences = [
     pos: "Frontend Developer",
     duration: "2/2025 - Present",
     title:
-      "As a Frontend Developer at Davinda, collaborating with backend, design, and test teams to deliver top-notch web solutions. Skilled in React, Next, and Redux, optimizing UI performance, managing state, and leveraging modern styling frameworks for seamless user experiences.",
+      "At Davinda, collaborated closely with backend, design, and QA teams to deliver scalable and high-quality web applications. Specialized in React.js, Next.js, and modern front-end technologies, creating user-friendly, performant, and maintainable UI solutions.",
     icon: "/assets/davinda.jpg",
     animation: "clapping",
   },
