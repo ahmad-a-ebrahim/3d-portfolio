@@ -54,7 +54,7 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "React",
         path: "/assets/react.svg",
       },
       {
@@ -64,19 +64,19 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Shadcn UI",
+        name: "ShadCN",
         path: "/assets/shadcn.png",
       },
       {
         id: 4,
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
         path: "/assets/tailwindcss.png",
       },
     ],
   },
   {
-    title: "Auto Forma - AI Form Builder",
-    desc: "A full-stack form builder platform built with Next.js, TypeScript, Drizzle ORM, and Supabase, featuring authentication (email & Google), AI-powered form generation, manual form creation, and an intuitive form editor. Users can manage responses with advanced filtering, gain insights through analytics dashboards, and access premium features via Stripe subscriptions.",
+    title: "AutoForma - AI Form Builder",
+    desc: "A full-stack form builder platform built with Next, TypeScript, Drizzle ORM, and Supabase, featuring authentication (email & Google), AI-powered form generation, manual form creation, and an intuitive form editor. Users can manage responses with advanced filtering, gain insights through analytics dashboards, and access premium features via Stripe subscriptions.",
     subdesc:
       "AutoForma combines AI, modern UI, and scalable architecture to deliver a seamless experience for building, managing, and analyzing forms.",
     href: "https://auto-forma.vercel.app",
@@ -86,7 +86,7 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Next.js",
+        name: "Next",
         path: "/assets/nextjs.svg",
       },
       {
@@ -96,13 +96,18 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Shadcn UI",
-        path: "/assets/shadcn.png",
+        name: "Supabase",
+        path: "/assets/supabase.svg",
       },
       {
         id: 4,
-        name: "Supabase",
-        path: "/assets/supabase.svg",
+        name: "ShadCN",
+        path: "/assets/shadcn.png",
+      },
+      {
+        id: 5,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
       },
     ],
   },
@@ -110,35 +115,35 @@ export const myProjects = [
     title: "Keramik - Point Of Sale System",
     desc: "A modern and efficient Point of Sale web application designed to streamline order management. Supports multiple languages and provides an intuitive interface for placing, tracking, and canceling orders, with the ability to select locations via Google Maps.",
     subdesc:
-      "Built with React, ShadCN, Tailwind, and React Query, the system includes advanced cart management with item adjustments, custom notes, and real-time order updates. Leveraging infinite scroll powered by React Query, it ensures smooth navigation and high performance even with large datasets, delivering a seamless user experience.",
+      "Built with React, ShadCN, Tailwind CSS, and React Query, the system includes advanced cart management with item adjustments, custom notes, and real-time order updates. Leveraging infinite scroll powered by React Query, it ensures smooth navigation and high performance, delivering a seamless user experience.",
     video: "/videos/project/keramik-pos.mp4",
     spotlight: "/assets/spotlight-orange.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "React",
         path: "/assets/react.svg",
       },
       {
         id: 2,
-        name: "React Query",
+        name: "ReactQuery",
         path: "/assets/react-query.svg",
       },
       {
         id: 3,
-        name: "Shadcn UI",
+        name: "ShadCN",
         path: "/assets/shadcn.png",
       },
       {
         id: 4,
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
         path: "/assets/tailwindcss.png",
       },
     ],
   },
   {
     title: "Luxe Timepices - Online Store",
-    desc: "Watches store using react, redux, mui and php laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
+    desc: "Watches store using React, Redux, MUI and PHP Laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
     subdesc:
       "With modern and rebust design with page for browsing products and adding them to the favorites, Also Cart managment functionality with icrease/decrease quantity and remove. And a dashboard to manage products and users.",
     repo: "https://github.com/ahmad-a-ebrahim/luxe-timepieces",
@@ -147,12 +152,12 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "React",
         path: "/assets/react.svg",
       },
       {
         id: 2,
-        name: "Redux.js",
+        name: "Redux",
         path: "/assets/redux.svg",
       },
       {
@@ -164,7 +169,7 @@ export const myProjects = [
   },
   {
     title: "Cryptocurrencies App",
-    desc: "Fully responsive and interactive crypto currencies website using react.js, ant design, redux toolkit, chart.js and coinranking, bing news APIs.",
+    desc: "Fully responsive and interactive crypto currencies website using React, Ant Design, Redux, Chart.js and Coinranking, Bing news APIs.",
     subdesc:
       "Amazing statistics about crypto world with links and graphs so you can follow up with up to date information and filtering functionality to quickly find any currency.",
     href: "https://ahmad-a-ebrahim.github.io/cryptoapp",
@@ -174,18 +179,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "React",
         path: "/assets/react.svg",
       },
       {
         id: 2,
-        name: "Ant Design",
-        path: "assets/ant-design.svg",
+        name: "Redux",
+        path: "/assets/redux.svg",
       },
       {
         id: 3,
-        name: "Redux.js",
-        path: "/assets/redux.svg",
+        name: "AntDesign",
+        path: "assets/ant-design.svg",
       },
     ],
   },
