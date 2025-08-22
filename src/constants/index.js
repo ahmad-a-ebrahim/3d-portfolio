@@ -107,6 +107,36 @@ export const myProjects = [
     ],
   },
   {
+    title: "Keramik - Point Of Sale System",
+    desc: "A modern and efficient Point of Sale web application designed to streamline order management. Supports multiple languages and provides an intuitive interface for placing, tracking, and canceling orders, with the ability to select locations via Google Maps.",
+    subdesc:
+      "Built with React, ShadCN, Tailwind, and React Query, the system includes advanced cart management with item adjustments, custom notes, and real-time order updates. Leveraging infinite scroll powered by React Query, it ensures smooth navigation and high performance even with large datasets, delivering a seamless user experience.",
+    video: "/videos/project/keramik-pos.mp4",
+    spotlight: "/assets/spotlight-orange.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "React Query",
+        path: "/assets/react-query.svg",
+      },
+      {
+        id: 3,
+        name: "Shadcn UI",
+        path: "/assets/shadcn.png",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/tailwindcss.png",
+      },
+    ],
+  },
+  {
     title: "Luxe Timepices - Online Store",
     desc: "Watches store using react, redux, mui and php laravel supports authentication ,dynamic roles ,cart management ,admin dashboard and more...",
     subdesc:
