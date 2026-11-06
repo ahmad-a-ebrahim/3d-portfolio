@@ -1,5 +1,7 @@
 # 3D Portfolio — Ahmad Ebrahim
 
+> **Note:** This is my old portfolio. It is kept here as a legacy project and is no longer actively maintained.
+
 An interactive, single-page 3D developer portfolio built with React, Three.js (React Three Fiber), GSAP and Tailwind CSS.
 
 ## Status
