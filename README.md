@@ -1,4 +1,4 @@
-# 3D Portfolio — Ahmad Mriwed
+# 3D Portfolio — Ahmad Ebrahim
 
 An interactive, single-page 3D developer portfolio built with React, Three.js (React Three Fiber), GSAP and Tailwind CSS.
 
